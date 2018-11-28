@@ -6,7 +6,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Locate the syntax (notation) errors in this file
 #   by looking for red underlines.
 #
@@ -31,6 +31,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 import rosegraphics as rg
+import math
 
 
 def main():
@@ -41,10 +42,10 @@ def main():
 
 def print_math():
     """ Prints some calculated values. """
-    x = math.cos(pi)
+    x = math.cos(math.pi)
     print(x)
 
-    y = math.sin(pi)
+    y = math.sin(math.pi)
     print('The sine of PI is, y')
 
 
@@ -57,12 +58,12 @@ def turtle_fun():
     window = rg.TurtleWindow()
 
     alan = rg.SimpleTurtle()
-alan.pen = rg.Pen('blue', 30)
+    alan.pen = rg.Pen('blue', 30)
     alan.paint_bucket = rg.PaintBucket('yellow')
 
-    alan.back(3 * (47 + 16)
+    alan.backward(3 * (47 + 16))
     alan.begin_fill()
-    alan.circle(25)
+    alan.draw_circle(25)
     alan.end_fill()
 
     alan.forward(200)
