@@ -22,6 +22,7 @@ import math
 
 def main():
     print(triangle(3, 4))
+    print(triangle(1,1))
     pen('blue',10)
     pen('black', 1)
 
