@@ -105,7 +105,7 @@ def draw_circles(point):
 #   vary by ANY desired amount.  Hence, the new version will be MORE POWERFUL.
 #
 #   So, modify the   better_draw_circles   function defined BELOW so that
-#   it has a single PARAMETER that is the amount by which the radii of the
+#   it has a single additional PARAMETER that is the amount by which the radii of the
 #   circles increase.  For example, if that parameter is given the value 15,
 #   then the circles should have radii:  15  30  45  60  75 ..., respectively,
 #   just as in   draw_circles.  But if that parameter is given the value 3,
