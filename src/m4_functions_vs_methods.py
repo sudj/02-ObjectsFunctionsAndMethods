@@ -183,6 +183,14 @@ def try_methods_and_functions():
     dot.speed = 5
     dot.pen = rg.Pen('red',5)
     draw_many_squares(dot,10,50,15)
+    dot.speed = 100
+    dot.pen = rg.Pen('red',35)
+    draw_many_squares(dot,8,300,60)
+    cross = rg.SimpleTurtle()
+    cross.pen = rg.Pen('black',3)
+    cross.backward(200)
+    cross.draw_circle(30)
+    cross.draw_square(50)
 
     """
     Constructs a SimpleTurtle and sets its   pen  to a new rg.Pen
@@ -216,7 +224,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ###########################################################################
-    # TODO: 6. Implement and test this function, per its doc-string above.
+    # DONE: 6. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #
     #   NOTE: This function should ** CALL ** the
